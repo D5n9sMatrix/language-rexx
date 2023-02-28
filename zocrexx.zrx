@@ -1,0 +1,37 @@
+/* Officer Working Connection compile program  */
+zoc MIN call "Office Router"
+zoc MIN call "Office Server"
+zoc MIN call "Office worker"
+
+/* output type say file */
+say "Office Router: " 
+zoc OfficeRouter=ssh!user!secret@myhost.secure.com
+say "Office Server: " 
+zoc OfficeServer=ssh!user!secret@myhost.secure.com
+say "Office worker: " 
+zoc OfficeWorker=ssh!user!secret@myhost.secure.com
+
+/* comment telnet */
+zoc dev telnet OfficeRouter=ssh!user!router@myhost.secure.com
+zoc dev telnet OfficeServer=ssh!user!server@myhost.secure.com
+zoc dev telnet OfficeWorker=ssh!user!worker@myhost.secure.com
+
+/* comment dialog ssh*/
+Let OfficerRouter=ssh!
+Let OfficerServer=ssh!
+Let OfficerWorker=ssh!
+
+/* phone router event arguments */
+zoc EMU!VT365 OfficerRouter=ssh! 
+zoc EMU!VT365 OfficerServer=ssh!
+zoc EMU!VT365 OfficerWorker=ssh!
+
+
+/* fonts language zoc rexx */
+zoc FI Corrier New
+
+/* comment terminal xterm build develop */
+zoc FX terminal
+
+
+

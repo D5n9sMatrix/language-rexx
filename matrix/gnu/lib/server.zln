@@ -1,0 +1,4 @@
+/DEV:RLOGIN
+/EMU:VT220
+/CONNECT:user@rsh.mydomain.de
+/WINPOS:20,20,750,500

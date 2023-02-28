@@ -1,0 +1,17 @@
+/* officer startup develop builder connection server router worker */
+zoc return MAX@startup.net call scientific.net CONNECT=ssh@user!source.net
+queue QUICK CONNECTION call ROUTER=ssh@interpret.net
+queue QUICK CONNECTION call SERVER=ssh@interpret.net
+queue QUICK CONNECTION call WORKER=ssh@interpret.net
+say "example -> ROUTER:>> ssh@interpret.net"
+say "-----------------------------------------------"
+say "QUICK CONNECTION: ROUTER:>>"
+say
+say "example -> SERVER:>> ssh@interpret.net"
+say "-----------------------------------------------"
+say "QUICK CONNECTION: SERVER:>>"
+say
+say "example -> WORKER:>> ssh@interpret.net"
+say "-----------------------------------------------"
+say "QUICK CONNECTION: WORKER:>>"
+say

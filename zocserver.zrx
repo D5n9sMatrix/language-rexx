@@ -1,0 +1,5 @@
+/* Officer Server logical machines copy bots */
+zoc return RUN mystart@secure.scientific.net
+say "exemple -> __name@ssh!user!secure.scientific.net"
+say "------------------------------------------------"
+say "OfficerServer@zocrexx: _name@shh!: "
