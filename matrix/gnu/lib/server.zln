@@ -1,4 +1,4 @@
-/DEV:RLOGIN
+/DEV:LOGIN
 /EMU:VT220
-/CONNECT:user@rsh.mydomain.de
+/HOST:user@localhost.net
 /WINPOS:20,20,750,500

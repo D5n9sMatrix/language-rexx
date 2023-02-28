@@ -1,5 +1,5 @@
-[user@ssh!]
-/DEV:user@ssh!secure.scientific.net
+[user]
+secure.net
 
-[password@ssh!]
-/DEV:password@ssh!secure.scientific.net
+[password]
+secure.net

@@ -1,5 +1,5 @@
 /* Officer Router develop builder worker home matrix */
-zoc return MAX@scientific.net call MATRIX=CONNECT@ssh!digits
+zoc return scientific.net call MATRIX=CONNECT
 queue QUICK CONNECTION call digits
 queue to CONNECTION call MATRIX
 queue trace ...
